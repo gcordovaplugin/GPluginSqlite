@@ -1,2 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cn.yingzhichu.cordova.gsqlite" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>GSqlite</name><js-module name="GSqlite" src="www/GSqlite.js"><clobbers target="cordova.plugins.GSqlite" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="GSqlite"><param name="android-package" value="cn.yingzhichu.cordova.gsqlite.GSqlite" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/GSqlite.java" target-dir="src/cn/yingzhichu/cordova/gsqlite/GSqlite" /></platform></plugin>
+<plugin id="cn.yingzhichu.cordova.gsqlite" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>GSqlite</name>
+    <js-module name="GSqlite" src="www/GSqlite.js">
+        <clobbers target="cordova.plugins.GSqlite" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="GSqlite">
+                <param name="android-package" value="cn.yingzhichu.cordova.gsqlite.GSqlite" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/GSqlite.java" target-dir="src/cn/yingzhichu/cordova/gsqlite/GSqlite" />
+    </platform>
+</plugin>
