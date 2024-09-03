@@ -1,0 +1,25 @@
+{
+  "name": "cn.yingzhichu.cordova.gsqlite",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cn.yingzhichu.cordova.gsqlite",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcordovaplugin/GPluginSqlite.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcordovaplugin/GPluginSqlite/issues"
+  },
+  "homepage": "https://github.com/gcordovaplugin/GPluginSqlite#readme"
+}
